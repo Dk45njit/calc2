@@ -38,14 +38,14 @@ class   Calculator:
 
     @staticmethod
     def add_number(value_a, value_b):
-        """ Creating Constructor"""
+        """ Instantiating  Addition object and passing value a and value b to the constructor"""
         #This is using a factory create method to return an instance of the class
         Calculator.add_calculation_to_history(Addition.create(value_a,value_b))
         return Calculator.get_last_calculation_result()
 
     @staticmethod
     def subtract_number(value_a, value_b):
-        """ subtract two numbers and store the result"""
+        """ subtract number from result"""
         Calculator.add_calculation_to_history(Subtraction.create(value_a,value_b))
         return Calculator.get_last_calculation_result()
 
