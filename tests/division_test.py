@@ -5,16 +5,16 @@ from calc.calculations.division import Division
 def test_calculation_division():
     """testing that our calculator has a static method for division"""
     #Arrange
-    mynumbers = (1.0,2.0,4.0)
+    mynumbers = (4, 2)
     division = Division(mynumbers)
     #Act
     #Assert
-    assert division.get_result() == 0.125
+    assert division.get_result() == 2
 
 def test_calculator_division_exception():
     """ Testing division exception for division by zero"""
     # Arrange
-    mynumbers = (1.0, 0.0, 1.0)
+    mynumbers = (1.0, 0.0)
     division = Division(mynumbers)
     # Act
     # Assert
