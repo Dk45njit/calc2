@@ -22,10 +22,8 @@ def test_calculator_multiply_static(clear_history_fixture):
     """Testing the multiplication method of the calc"""
     # pylint: disable=unused-argument,redefined-outer-name
     assert Calculator.multiply_numbers(1.0,2.0) == 2.0
-    assert Calculator.multiply_numbers(2.0,3.0) == 6.0
 
 def test_calculator_divide_static(clear_history_fixture):
     """Testing the division method of the calc"""
     # pylint: disable=unused-argument,redefined-outer-name
     assert Calculator.divide_numbers(1.0,2.0) == 0.5
-    assert Calculator.divide_numbers(4.0,1.0) == 4.0
