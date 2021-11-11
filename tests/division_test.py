@@ -5,8 +5,8 @@ from calc.calculations.division import Division
 def test_calculation_division():
     """testing that our calculator has a static method for division"""
     #Arrange
-    mynumbers = (4, 2)
-    division = Division(mynumbers)
+    numbers = (4, 2)
+    division = Division(numbers)
     #Act
     #Assert
     assert division.get_result() == 2
@@ -14,8 +14,8 @@ def test_calculation_division():
 def test_calculator_division_exception():
     """ Testing division exception for division by zero"""
     # Arrange
-    mynumbers = (1.0, 0.0)
-    division = Division(mynumbers)
+    numbers = (1.0, 0.0)
+    division = Division(numbers)
     # Act
     # Assert
     with pytest.raises(ZeroDivisionError):
