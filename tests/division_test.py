@@ -14,6 +14,7 @@ def test_calculation_division():
 def test_calculator_division_exception():
     """ Testing division exception for division by zero"""
     # Arrange
+    # comment
     mynumbers = (1.0, 0.0, 1.0 )
     division = Division(mynumbers)
     # Act
