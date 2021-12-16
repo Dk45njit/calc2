@@ -7,13 +7,13 @@
 ![Picture2](screenshots/picture2.PNG)
 
 # Picture 3
-![Picture3](screenshots/pitcure3.PNG)
+![Picture3](screenshots/picture3.PNG)
 
 # Picture 4
-![Picture4](screenshots/pitcure4.PNG)
+![Picture4](screenshots/picture4.PNG)
 
 # Picture 5
-![Picture5](screenshots/pitcure5.PNG)
+![Picture5](screenshots/picture5.PNG)
 
 
 
