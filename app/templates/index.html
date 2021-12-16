@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-5">History of the Internet Website</h1>
+    <p class="lead">We will introduce five videos about
+        the history of the Internet in this website.</p>
+    <a class="btn btn-info btn-dark" href="about.html" role="button">Learn about our project</a>
+    <hr class="my-4">
+    <h2 class="display-5">Collaborators: Myles Dsouza, Diksha Gowda and Dhananjay Krishnam Ramanatha Gupta.</h2>
+    <a class="btn btn-info btn-dark" href="team.html" role="button">See who all are involved</a>
+</div>
+<div class="container">
+    <h1>Outline of Events</h1>
+    <div class="row cardRow">
+
+    </div>
+    <h1></h1>
+    <div class="row cardRow">
+        <div class="col-sm-5">
+            <div class="card border rounded">
+                <img src="{{ url_for('static', filename='images/index3.png') }}">
+                <div class="card-body">
+                    <h5 class="card-title">Video 3: Internet Search</h5>
+                    <a href="./video3.html" class="btn btn-primary">Get Summary</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+            <div class="card border rounded">
+                <img src="{{ url_for('static', filename='images/index4.jpg') }}">
+                <div class="card-body">
+                    <h5 class="card-title">Video 4: Dot Com Bubble</h5>
+                    <a href="./video4.html" class="btn btn-primary">Get Summary</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1></h1>
+    <div class="row cardRow">
+        <div class="col-sm-5">
+            <div class="card border rounded">
+                <img src="{{ url_for('static', filename='images/index5.jpg') }}">
+                <div class="card-body">
+                    <h5 class="card-title">Video 5: People Power</h5>
+                    <a href="./video5.html" class="btn btn-primary">Get Summary</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+<h1></h1>
+
+
+</body>
+</html>
+{% endblock %}

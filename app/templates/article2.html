@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+          crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+          crossorigin="anonymous"></script>
+  <title>Index Page</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: aliceblue;">
+  <a class="navbar-brand mb-0 h1" href="#">IS601</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="team.html">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+          Videos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="video1.html">Page 1: The Invention of the Internet</a>
+          <a class="dropdown-item" href="video2.html">Page 2: Browser Wars</a>
+          <a class="dropdown-item" href="video3.html">Page 3: Internet Search</a>
+          <a class="dropdown-item" href="video4.html">Page 4: Dot Com Bubble</a>
+          <a class="dropdown-item" href="video5.html">Page 5: People Power</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="shorts.html">Short Videos</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+          Articles
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item active" href="article1.html">Article 1</a>
+          <a class="dropdown-item" href="article2.html">Article 2</a>
+          <a class="dropdown-item" href="article3.html">Article 3</a>
+          <a class="dropdown-item" href="article4.html">Article 4</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="jumbotron text-center">
+  <h1 class="display-4">AAA Testing</h1>
+  <div class="text-center">
+    <img src="./images/AAA%20Testing.png" height="350" width="800" class="rounded" alt="browser">
+  </div>
+
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="mt-4"></div>
+      <h2>What is AAA Testing?</h2>
+      <p>
+        • A test is a procedure that exercises a behavior to determine if the behavior functions correctly. There are several different kinds of tests, like unit tests, integration tests, or end-to-end tests, but all functional tests do the same basic thing: they try something and report PASS or FAIL.
+      </p>
+
+      <p>   • Testing provides an empirical feedback loop for development. That’s how testing keeps us safe. With tests, we know when things break. Without tests, coding can be dangerous. We don’t want to deploy big ol’ bugs! </p>
+
+      <p>    • So, if we intend to spend time writing tests, how can we write good tests? There’s a simple but powerful pattern I like to follow: Arrange-Act-Assert. </p>
+
+      </p>
+      <h2>Why is AAA Testing Important?</h2>
+      <p>Unit testing ensures that all code meets quality standards before it's deployed. This ensures a reliable engineering environment where quality is paramount. Over the course of the product development life cycle, unit testing saves time and money, and helps developers write better code, more efficiently.</p>
+    </div>
+  </div>
+  <div class="text-center">
+      <img src="./images/AAAtesting2.png" height="300" width="350" alt="pic1">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="mt-4"></div>
+      <h2>AAA Testing's order of operations</h2>
+
+      <h3>Step 1:</h3>
+      <p>
+        •Arrange inputs and targets. Arrange steps should set up the test case. Does the test require any objects or special settings? Does it need to prep a database? Does it need to log into a web app? Handle all of these operations at the start of the test.
+
+      </p>
+      <h3>Step 2:</h3>
+      <p>
+        •Act on the target behavior. Act steps should cover the main thing to be tested. This could be calling a function or method, calling a REST API, or interacting with a web page. Keep actions focused on the target behavior.
+      </p>
+      <h3>Step 3:</h3>
+      <p>
+        •Assert expected outcomes. Act steps should elicit some sort of response. Assert steps verify the goodness or badness of that response. Sometimes, assertions are as simple as checking numeric or string values. Other times, they may require checking multiple facets of a system. Assertions will ultimately determine if the test passes or fails. Every major programming language has at least one test framework. Frameworks like JUnit, NUnit, Cucumber, and (my favorite) pytest enable you, as the programmer, to automate tests, execute suites, and report results. However, the framework itself doesn’t make a test case “good” or “bad.” You, as the tester, must know how to write good tests. Arrange-Act-Assert is powerful because it is simple. It forces tests to focus on independent, individual behaviors. It separates setup actions from the main actions. It requires test to make verifications and not merely run through motions. Notice how the pattern is not Arrange-Act-Assert-Act-Assert – subsequent actions and assertions belong in separate tests! Arrange-Act-Assert is a great pattern to follow for writing good functional tests.
+      </p>
+      <div class="col-sm-3">
+        <img src="./images/AAAsnippet.png" width="500" height="400" alt="negotiation">
+    </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="mt-4"></div>
+      <h1>Unit Testing</h1>
+      <p>
+        Unit testing is a type of testing in which individual units or functions of software testing. Its primary purpose is to test each unit or function. A unit is the smallest testable part of an application. It mainly has one or a few inputs and produces a single output.
+
+      </p>
+      <p>1 def test_abs_for_a_negative_number():</p>
+      <p>    2</p>
+      <p>    3 # Arrange</p>
+      <p>    4 negative = -1</p>
+      <p>    5</p>
+      <p>    6 # Act</p>
+      <p>    7 answer = abs(negative)</p>
+      <p>    8</p>
+      <p>    9 # Assert</p>
+      <p>    10 assert answer == 1</p>
+      <p>    This test may seem trivial, but we can use it to illustrate our pattern. I like to write comments denoting each phase of the test case as well.</p>
+      <p>    1. The Arrange step creates a variable named “negative” for testing.</p>
+      <p>    2. The Act step calls the “abs” function using the “negative” variable and stores the returned value in a variable named “answer.”</p>
+      <p>   3. The Assert step verifies that “answer” is a positive value.</p>
+    </div>
+  </div>
+</div>
+<div class="card text-center">
+  <div class="card-footer text-dark">
+    Dhananjay Gupta &#169;
+    <a href="https://validator.w3.org/#validate_by_uri">W3C Validator</a>
+  </div>
+</div>
+</body>
+</html>
+
